@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple FAQ page about tracking orders and return policies.">
+    <title>faq</title>
+    <link rel="icon" href="./favicon.ico">
+    <style>
+        body{
+            background-color: whitesmoke;
+            margin: 0%;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            height: 20vh;
+            text-align: center;
+            flex-direction: column;
+            margin: 5vh;
+
+
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(236, 239, 246);
+
+        }
+        .container{
+            max-width: 600px;
+            width: 100%;
+            margin-top: 20px;
+
+
+        }
+
+        .titre{
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(9, 32, 113);
+            height: fit-content;
+            justify-content: center;
+            margin-bottom: 0;
+
+        }
+        h1{
+            font-size: 5vh;
+        }
+        .Q-title{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            color: rgb(34, 48, 172);
+        }
+        .links{
+            color: brown;
+        }
+        .links:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class=" titre"> Frequently asked questions. </h1>
+        <p> Browse through the most frequently asked questions </p>
+
+    </header>
+
+       <main>
+          <div class="container">
+            <h2 class="Q-title">How can I track my order? </h2>
+                <p class="answers">You can track your order using the following steps. </p>
+                    <ol> 
+                        <li> Go to the Order <span class="links">Tracking page</span>. </li> 
+                        <li> Enter your order number and email address. </li>
+                        <li> Click on the Track Order button to view the current status of your shipment. </li> 
+                    </ol>
+                </p>
+                      <p>  If you encounter any issues, please visit our <span class="links"> Help Center</span>. </p>
+   </p>
+            
+        <hr>
+            <h2 class="Q-title">What is your return policy? </h2>
+                <p class="answers">We offer a 30-day return policy on most items. </p> 
+                Here are some key points : 
+                <ul> <li>Items must be in original condition: Unworn, unused, and unwashed.</li> 
+                    <li> Include original packaging and tags : All items should be returned with their original packaging and tags. </li> 
+                    <li> Proof of purchase : A receipt or proof of purchase is required.</li> 
+                </ul> 
+            </p> For more detailed information, read our full <span class="links"> Return Policy</span>.
+   </p>
+          </div>
+       </main>
+
+    <footer>
+
+    </footer>  
+    
+</body>
+</html>
